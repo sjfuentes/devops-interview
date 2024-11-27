@@ -1,6 +1,7 @@
 name: Build application
 
-on: workflow_distpath
+on:
+  pull_request:
 
 jobs:
   dependencies:
