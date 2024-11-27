@@ -7,7 +7,7 @@ jobs:
   dependencies:
     runs-on: ubuntu-latest
 
-    stratgy:
+    strategy:
       matrix:
         node-version: [15.0.1]
     
